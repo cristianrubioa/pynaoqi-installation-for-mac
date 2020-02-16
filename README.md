@@ -52,11 +52,8 @@ $ source ~/.bash_profile
 
 2. Run python.
 
-``` 
-$ python
-```
-
 3. Try to run:
+
 ```python
 $ import naoqi
 ```
