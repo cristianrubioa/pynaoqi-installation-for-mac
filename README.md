@@ -7,7 +7,7 @@
 
 ## Naoqi for Python
 
-1.
+1. You can download the SDK from SoftBank Robotics Community website. https://sso.aldebaran-robotics.com/pf/adapter2adapter.ping?TargetResource=https%3A%2F%2Fcommunity.ald.softbankrobotics.com%2Fen%2Fresources%2Fsoftware%2Flanguage%2Fen-gb
 
 2. Add environment variables:
 
