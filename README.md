@@ -55,5 +55,5 @@ $ source ~/.bash_profile
 3. Try to run:
 
 ```python
-$ import naoqi
+import naoqi
 ```
