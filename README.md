@@ -5,12 +5,12 @@
 <a href="https://www.python.org/downloads/"><img alt="Python 2.7+" src="https://img.shields.io/badge/python-2.7+-yellow.svg" /></a>
 
 
-## Naoqi for Python
+## Installing the SDK
 
 1. You can download the SDK from SoftBank Robotics Community website. [here](https://community.aldebaran.com/en/resources/software/language/en-gb/field_software_type/sdk/robot/nao-2).
 
 
-2. Extract pynaoqi: 
+2. Extract Python SDK: 
 
 ```
 $ tar -xzvf pynaoqi-python-2.7-naoqi-x.x-mac64.tar.gz.tar.gz
@@ -29,7 +29,7 @@ $ export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/path/to/python-sdk
 $ open ~/.bash_profile 
 ```
 
-5. To make it use globally, copy the commands from Step-2 and paste it in .bash_profile, for example: 
+5. To make it use globally, copy the commands from Step-3 and paste it in .bash_profile, for example: 
 
 ```
 $ export PYTHONPATH=${PHTHONPATH}:/Users/admin/Documents/pynaoqi/lib/python2.7/site-packages
@@ -43,4 +43,20 @@ $ export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/Users/admin/Documents/pynaoqi/l
 
 ``` 
 $ source ~/.bash_profile 
+```
+
+
+## Checking the Installation
+
+1. Open the terminal.
+
+2. Run python.
+
+``` 
+$ python
+```
+
+3. Try to run:
+```python
+$ import naoqi
 ```
