@@ -13,27 +13,27 @@
 2. Extract Python SDK: 
 
 ```
-$ tar -xzvf pynaoqi-python-2.7-naoqi-x.x-mac64.tar.gz.tar.gz
+tar -xzvf pynaoqi-python-2.7-naoqi-x.x-mac64.tar.gz.tar.gz
 ```
 
 3. Add environment variables:
 
 ```
-$ export PYTHONPATH=${PYTHONPATH}:/path/to/python-sdk
-$ export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/path/to/python-sdk
+export PYTHONPATH=${PYTHONPATH}:/path/to/python-sdk
+export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/path/to/python-sdk
 ```
 
 4. Run the following command on your terminal:
 
 ``` 
-$ open ~/.bash_profile 
+open ~/.bash_profile 
 ```
 
 5. To make it use globally, copy the commands from Step-3 and paste it in .bash_profile, for example: 
 
 ```
-$ export PYTHONPATH=${PHTHONPATH}:/Users/admin/Documents/pynaoqi/lib/python2.7/site-packages
-$ export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/Users/admin/Documents/pynaoqi/lib
+export PYTHONPATH=${PHTHONPATH}:/Users/admin/Documents/pynaoqi/lib/python2.7/site-packages
+export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/Users/admin/Documents/pynaoqi/lib
 ```
 
 
@@ -42,7 +42,7 @@ $ export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/Users/admin/Documents/pynaoqi/l
 7. Force the execution of the .bash_profile file to see the changes immediately without having to restart.
 
 ``` 
-$ source ~/.bash_profile 
+source ~/.bash_profile 
 ```
 
 
