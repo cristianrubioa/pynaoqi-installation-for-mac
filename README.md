@@ -7,10 +7,17 @@
 
 ## Installing the SDK
 
-1. You can download the SDK from SoftBank Robotics Community website. [here](https://community.aldebaran.com/en/resources/software/language/en-gb/field_software_type/sdk/robot/nao-2).
+1. You can download the SDK from SoftBank Robotics Community website [here](https://community.aldebaran.com/en/resources/software/language/en-gb/field_software_type/sdk/robot/nao-2) or from the following repository:
+
+```
+git clone https://github.com/cristianrubioa/pynaoqi
+```
 
 
 2. Extract Python SDK: 
+
+**Note:** In case of downloading from the repository, go to the third step
+
 
 ```
 tar -xzvf pynaoqi-python-2.7-naoqi-x.x-mac64.tar.gz.tar.gz
