@@ -16,7 +16,7 @@ git clone https://github.com/cristianrubioa/pynaoqi
 
 2. Extract Python SDK: 
 
-**Note:** In case of downloading from the repository, go to the third step
+**Note:** In case of downloading from the repository, go to the third step.
 
 
 ```
@@ -62,5 +62,8 @@ source ~/.bash_profile
 3. Try to run:
 
 ```python
-import naoqi
+python
+>>> import naoqi
+>>>
 ```
+**Note:** If you do not get any error message, you are now ready to use the Python SDK.
