@@ -18,10 +18,11 @@ git clone https://github.com/cristianrubioa/pynaoqi
 
 **Note:** In case of downloading from the repository, go to the third step.
 
-
 ```
 tar -xzvf pynaoqi-python-2.7-naoqi-x.x-mac64.tar.gz.tar.gz
+mv pynaoqi-python-2.7-naoqi-x.x-mac64 pynaoqi	
 ```
+
 
 3. Add environment variables:
 
@@ -36,7 +37,7 @@ export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/path/to/python-sdk
 open ~/.bash_profile 
 ```
 
-5. To make it use globally, copy the commands from Step-3 and paste it in .bash_profile, for example: 
+5. To make it use globally, copy the commands from Step-3 and paste it in ```.bash_profile```, for example: 
 
 ```
 export PYTHONPATH=${PHTHONPATH}:/Users/admin/Documents/pynaoqi/lib/python2.7/site-packages
@@ -44,7 +45,7 @@ export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/Users/admin/Documents/pynaoqi/lib
 ```
 
 
-6. Save the file and close the editor .bash_profile.
+6. Save the file and close the editor ```.bash_profile```.
 
 7. Force the execution of the .bash_profile file to see the changes immediately without having to restart.
 
@@ -55,11 +56,7 @@ source ~/.bash_profile
 
 ## Checking the Installation
 
-1. Open the terminal.
-
-2. Run python.
-
-3. Try to run:
+Open the terminal and try to run:
 
 ```python
 python
