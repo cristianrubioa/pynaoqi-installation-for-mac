@@ -1,4 +1,4 @@
-# Pyhon Naoqi Installation Guide For Mac
+# Python Naoqi Installation Guide For Mac
 
 <div align="left">
 
@@ -66,3 +66,6 @@ python
 >>>
 ```
 **Note:** If you do not get any error message, you are now ready to use the Python SDK.
+
+## Examples
+Try these scripts to start: https://github.com/cristianrubioa/nao_robot
